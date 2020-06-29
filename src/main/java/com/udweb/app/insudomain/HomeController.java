@@ -8,6 +8,8 @@ public class HomeController {
 
     @RequestMapping(value = "/home")
     public String hello(){
+        System.out.println("hello in sysout");
         return "helloo";
     }
+
 }
